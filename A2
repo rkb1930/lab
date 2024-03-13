@@ -31,3 +31,25 @@ Q6. Write a program to create an Animal class with member variables name,
 color, types (pet/wild). Override the hashCode method to print the
 unique id for the object. Create the objects of the Animal class and
 print its hashcode.
+
+ Write a Java code snippet that comprises of a User class and an
+ArrayListUser class. The User class should define private fields for 
+name and age, along with a parameterized constructor and getter/setter
+methods for these attributes. Create an ArrayListUser class of User 
+objects. After addition of objects, the ArrayListUser class should 
+retrieve and print the name and age of users. Then, it should sort the user 
+according to age using getter methods and print the updated array list of 
+users.
+
+3. Write a Java code snippet that comprises of a Car class and a CarApp
+class. The Car class should define private fields for ModalNo(int), 
+name(string) and stock(int). Define a parameterised constructor and 
+override the compareTo method as public int compareTo(Car car) to 
+sort the car on basis of the total number of stock. Create an ArrayList of 
+Car objects and print the updated the sorted list.
+For example the list of sorted Car Objects
+2013 creta 10 
+2020 MG 13
+2018 Kia 20
+2017 Audi 45
+2015 BMW 55

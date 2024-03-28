@@ -60,3 +60,27 @@ display it.
 by reordering the letters of another word or phrase. Declare two strings 
 str1 and str2 and initialize. Create a HashMap<Character, Integer>
 and use methods containsKey() ,put() ,get() to check the strings.
+
+9. Given an array of integers, print the repeating integers in the array with 
+the help of a HashSet.
+
+10.In given large string, find the most occurring words in the string. 
+Hint:-
+a. Create a Hashtable which will keep track of <word, frequency>
+b. Iterate through the string and keep track of word frequency by inserting
+into Hash-Table.
+c. When we have a new word, we will insert it into the Hashtable with
+frequency 1. For all repetition of the word, we will increase the
+frequency.
+d. We can keep track of the most occurring words whenever we are
+increasing the frequency we can see if this is the most occurring word or 
+not.
+
+11.Given an unsorted array of integers from 1 to 10, find smallest positive 
+number missing in the array. Use a hash map HashMap<Integer, 
+Integer> to keep track of elements.
+
+ 
+12.Declare an array of integers. int[] arr = {1,2,10,8,7,3,4,6,5,9};. Then 
+create a min heap of elements from the array using Priority Queue class.
+Again Dequeue elements of Priority Queue using appropriate methods.
